@@ -10,23 +10,14 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack(spacing: 20){
-            Text("Hello, World!")
-            Text("Hello Ashutosh")
-            Text("Hello Willskhalifa")
-            HStack{
-                Text("My name is")
-                Text("Goldy")
-            }
             ZStack{
-                Text("The First one")
-                Text("The Second one")
-                Text("It is used for depth")
+                Color.red.edgesIgnoringSafeArea(.all)
+                Text("Kya bolte Bantai").foregroundColor(.white)
+                    
             }
         }
         
     }
-}
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
