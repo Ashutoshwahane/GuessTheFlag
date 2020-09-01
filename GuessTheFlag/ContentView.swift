@@ -59,7 +59,6 @@ struct ContentView: View {
         
     }
     
-    
     func flagTapped(_ number: Int){
         if (number == correctAnswer) {
             showTitle = "Correct"
@@ -75,7 +74,6 @@ struct ContentView: View {
         countries.shuffle()
         correctAnswer = Int.random(in: 0...2)
     }
-    
     
 }
 
